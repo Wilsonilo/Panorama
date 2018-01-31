@@ -1,3 +1,15 @@
+Note
+========
+
+This is an adaptation from Sameh's work, i just changed the code to Swift 3 to becompatible with my work.
+Implementation example:<br>
+<pre>
+let motionView = PanoramaView(frame: self.view.bounds)
+motionView.setImage(image: UIImage(named:"background_login")!)
+backgroundView.addSubview(motionView)
+</pre>
+<br>
+Just put the class files in your project and use the example.
 Panorama
 ========
 
@@ -8,7 +20,7 @@ implementation of the photo tilt gesture/UX found in Facebook's Paper app.
 
 Requirements
 ----------
-* iOS 6.0 or higher
+* iOS 9.0 or higher
 * ARC
 * Core Motion
 
