@@ -10,6 +10,8 @@ backgroundView.addSubview(motionView)
 </pre>
 <br>
 Just put the class files in your project and use the example.
+<br>
+
 Panorama
 ========
 
